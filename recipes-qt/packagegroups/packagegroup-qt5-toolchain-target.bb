@@ -77,6 +77,8 @@ RDEPENDS:${PN} += " \
     qtsvg-dev \
     qtsvg-mkspecs \
     qtsvg-plugins \
+    qtremoteobjects-dev \
+    qtremoteobjects-mkspecs \
     qtsystems-dev \
     qtsystems-mkspecs \
     ${@bb.utils.contains('DISTRO_FEATURES', 'opengl', 'qtsystems-qmlplugins', '', d)} \
