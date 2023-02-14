@@ -71,6 +71,8 @@ RDEPENDS_${PN} += " \
     qtmultimedia-plugins \
     ${@bb.utils.contains('DISTRO_FEATURES', 'opengl', 'qtmultimedia-qmlplugins', '', d)} \
     qttranslations-qtmultimedia \
+    qtremoteobjects-dev \
+    qtremoteobjects-mkspecs \
     qtscript-dev \
     qtscript-mkspecs \
     qttranslations-qtscript \
